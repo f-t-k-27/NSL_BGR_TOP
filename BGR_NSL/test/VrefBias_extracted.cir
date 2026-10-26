@@ -1,0 +1,33 @@
+* Extracted by KLayout with SKY130 LVS runset on : 21/10/2026 14:01
+
+* cell VrefBias
+* pin sky130_gnd
+.SUBCKT VrefBias sky130_gnd
+* device instance $1 r0 *1 185.08,132.235 sky130_fd_pr__pfet_01v8_lvt
+XM$1 \$2 \$11 \$5 \$3 sky130_fd_pr__pfet_01v8_lvt L=1000000 W=45000000
++ AS=2.31e+13 AD=2.145e+13 PS=79240000 PD=73580000
+* device instance $3 r0 *1 185.08,180.52 sky130_fd_pr__pfet_01v8_lvt
+XM$3 \$77 \$60 \$5 \$3 sky130_fd_pr__pfet_01v8_lvt L=1000000 W=20000000
++ AS=9.9e+12 AD=9.9e+12 PS=33960000 PD=33960000
+* device instance $8 r0 *1 186.74,125.295 sky130_fd_pr__pfet_01v8_lvt
+XM$8 \$5 \$3 \$3 \$3 sky130_fd_pr__pfet_01v8_lvt L=1000000 W=5000000
++ AS=1.65e+12 AD=3.3e+12 PS=5660000 PD=11320000
+* device instance $9 r0 *1 185.08,171.27 sky130_fd_pr__pfet_01v8_lvt
+XM$9 \$52 \$35 \$5 \$3 sky130_fd_pr__pfet_01v8_lvt L=1000000 W=20000000
++ AS=9.9e+12 AD=9.9e+12 PS=33960000 PD=33960000
+* device instance $13 r0 *1 185.08,197.315 sky130_fd_pr__pfet_01v8_lvt
+XM$13 \$103 \$94 \$5 \$3 sky130_fd_pr__pfet_01v8_lvt L=1000000 W=20000000
++ AS=9.9e+12 AD=9.9e+12 PS=33960000 PD=33960000
+* device instance $23 r0 *1 179.985,187.96 sky130_fd_pr__res_high_po_1p41
+XR$23 \$52 \$77 sky130_gnd sky130_fd_pr__res_high_po_1p41 R=127.012765957
++ L=1120000 W=2820000 A=3.1584e+12 P=10120000
+* device instance $25 r0 *1 179.985,197.93 sky130_fd_pr__res_high_po_1p41
+XR$25 \$77 \$103 sky130_gnd sky130_fd_pr__res_high_po_1p41 R=480.834042553
++ L=2120000 W=1410000 A=2.9892e+12 P=7060000
+* device instance $26 r0 *1 179.985,171.34 sky130_fd_pr__res_high_po_1p41
+XR$26 \$2 \$52 sky130_gnd sky130_fd_pr__res_high_po_1p41 R=185.982978723
++ L=820000 W=1410000 A=1.1562e+12 P=4460000
+* device instance $27 m0 *1 179.985,141.71 sky130_fd_pr__res_high_po_1p41
+XR$27 \$5 \$8 sky130_gnd sky130_fd_pr__res_high_po_1p41 R=9779.98297872
++ L=43120000 W=1410000 A=6.07992e+13 P=89060000
+.ENDS VrefBias

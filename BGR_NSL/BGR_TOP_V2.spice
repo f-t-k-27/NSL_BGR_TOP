@@ -1,0 +1,85 @@
+** sch_path: /foss/designs/BGR_TOP_NSL/BGR_NSL/BGR_TOP_V2.sch
+.subckt BGR_TOP_V2 vdd vss out vdd vss S0 S1 vdd vss
+*.PININFO vdd:B vss:B out:O vdd:B vss:B S0:I S1:I vdd:B vss:B
+XM11 net3 net6 out vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1 m=4
+XM12 net3 net5 net8 vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1 m=4
+XM13 net3 net4 net7 vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1 m=4
+XM14 net3 net9 net2 vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1 m=9
+XR3 net8 out vss sky130_fd_pr__res_high_po_1p41 L=2.12 mult=1
+XR4 net7 net8 vss sky130_fd_pr__res_high_po_1p41 L=1.12 mult=2 m=2
+XR5 net2 net7 vss sky130_fd_pr__res_high_po_1p41 L=0.82 mult=1
+XR6 net1 net3 vss sky130_fd_pr__res_high_po_1p41 L=43.12 mult=1
+XM1 net10 net11 vdd vdd sky130_fd_pr__pfet_01v8_lvt L=2 W=6 nf=1 m=6
+XM2 net11 net11 vdd vdd sky130_fd_pr__pfet_01v8_lvt L=2 W=6 nf=1 m=6
+XM3 out net11 vdd vdd sky130_fd_pr__pfet_01v8_lvt L=2 W=6 nf=1 m=6
+XM4 net10 net10 net12 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 m=8
+XM5 net11 net10 bs vss sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 m=8
+XR1 net14 bs vss sky130_fd_pr__res_high_po_1p41 L=15.92 mult=1
+XR2 net13 net12 vss sky130_fd_pr__res_high_po_1p41 L=7.72 mult=1
+XQ1 vss vss net13 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ2 vss vss net14 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ3 vss vss net1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XM6 vdd vdd vdd vdd sky130_fd_pr__pfet_01v8_lvt L=2 W=6 nf=1 m=6
+XM7 net3 vdd vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1
+XM8 bs vss vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 m=4
+XM9 net11 vss vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 m=8
+XM10 net10 vss vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=1 m=8
+XQ4 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ5 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ6 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ7 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ8 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ9 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ10 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ11 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ12 vss vss net14 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ13 vss vss net14 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ14 vss vss net14 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ15 vss vss net14 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ16 vss vss net14 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ17 vss vss net14 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ18 vss vss net14 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ19 vss vss net1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ20 vss vss net1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ21 vss vss net1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ22 vss vss net1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ23 vss vss net1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ24 vss vss net1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ25 vss vss net1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XM15 net16 net11 vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=2 nf=1
+XM16 net10 net15 net11 vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=2 nf=1 m=2
+XM17 net15 net15 net17 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=1 nf=1
+XM18 net15 net11 net16 vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=2 nf=1
+XM19 net17 net17 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=1 nf=1
+x1 vdd net6 vdd S0 S1 vss NAND
+x2 vdd S1 net19 vss NOT
+x3 vdd S0 net18 vss NOT
+x4 vdd net5 vdd net18 S1 vss NAND
+x5 vdd net4 vdd S0 net19 vss NAND
+x6 vdd net9 vdd net18 net19 vss NAND
+.ends
+
+* expanding   symbol:  NAND.sym # of pins=6
+** sym_path: /foss/designs/BGR_TOP_NSL/BGR_NSL/NAND.sym
+** sch_path: /foss/designs/BGR_TOP_NSL/BGR_NSL/NAND.sch
+.subckt NAND vdd out A B C vss
+*.PININFO vdd:B vss:B A:I C:I B:I out:O
+XM6 out A net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=2
+XM1 out B vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=4 nf=4
+XM2 out A vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=4 nf=4
+XM3 net1 B net2 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=2
+XM4 out C vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=4 nf=4
+XM5 net2 C vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=2 nf=2
+XM7 net1 vss vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=1 nf=1
+.ends
+
+
+* expanding   symbol:  NOT.sym # of pins=4
+** sym_path: /foss/designs/BGR_TOP_NSL/BGR_NSL/NOT.sym
+** sch_path: /foss/designs/BGR_TOP_NSL/BGR_NSL/NOT.sch
+.subckt NOT vdd in out vss
+*.PININFO vdd:B vss:B in:I out:O
+XM6 out in vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=1 nf=1
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=2 nf=2
+.ends
+

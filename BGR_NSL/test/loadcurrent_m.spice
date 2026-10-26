@@ -1,0 +1,8 @@
+** sch_path: /foss/designs/BGR_NSL/loadcurrent_m.sch
+.subckt loadcurrent_m vdd inN Ref Out
+*.PININFO vdd:B inN:I Ref:I Out:I
+XM1 inN Ref vdd vdd sky130_fd_pr__pfet_01v8_lvt L=2 W=6 nf=1 m=6
+XM2 Ref Ref vdd vdd sky130_fd_pr__pfet_01v8_lvt L=2 W=6 nf=1 m=6
+XM3 Out Ref vdd vdd sky130_fd_pr__pfet_01v8_lvt L=2 W=6 nf=1 m=6
+XM6 vdd vdd vdd vdd sky130_fd_pr__pfet_01v8_lvt L=2 W=6 nf=1 m=6
+.ends
