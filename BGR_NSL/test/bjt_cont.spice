@@ -1,0 +1,8 @@
+** sch_path: /foss/designs/BGR_NSL/test/bjt_cont.sch
+.subckt bjt_cont vss res1 res2 res3
+*.PININFO vss:B res1:B res2:B res3:B
+Q1 vss vss res1 sky130_fd_pr__pnp_05v5_W3p40L3p40
+Q2 vss vss res2 sky130_fd_pr__pnp_05v5_W3p40L3p40 m=8
+Q3 vss vss res3 sky130_fd_pr__pnp_05v5_W3p40L3p40 m=8
+Q4 vss vss vss sky130_fd_pr__pnp_05v5_W3p40L3p40 m=8
+.ends

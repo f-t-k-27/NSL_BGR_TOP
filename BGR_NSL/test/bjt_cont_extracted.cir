@@ -1,0 +1,19 @@
+* Extracted by KLayout with SKY130 LVS runset on : 22/10/2026 06:15
+
+* cell bjt_cont
+* pin sky130_gnd
+.SUBCKT bjt_cont sky130_gnd
+* device instance $1 r0 *1 21.61,26.025 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ$1 sky130_gnd sky130_gnd \$1 sky130_fd_pr__pnp_05v5_W3p40L3p40 AE=9.248e+13
++ PE=108800000 AB=2.31361e+13 PB=19240000 AC=2.31361e+13 PC=19240000 NE=8
+* device instance $9 r0 *1 21.61,18.925 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ$9 sky130_gnd sky130_gnd \$3 sky130_fd_pr__pnp_05v5_W3p40L3p40 AE=1.156e+13
++ PE=13600000 AB=2.31361e+13 PB=19240000 AC=2.31361e+13 PC=19240000 NE=1
+* device instance $10 r0 *1 35.81,18.925 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ$10 sky130_gnd sky130_gnd \$17 sky130_fd_pr__pnp_05v5_W3p40L3p40 AE=9.248e+13
++ PE=108800000 AB=2.31361e+13 PB=19240000 AC=2.31361e+13 PC=19240000 NE=8
+* device instance $18 r0 *1 21.61,33.125 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ$18 sky130_gnd sky130_gnd sky130_gnd sky130_fd_pr__pnp_05v5_W3p40L3p40
++ AE=9.248e+13 PE=108800000 AB=2.31361e+13 PB=19240000 AC=2.31361e+13
++ PC=19240000 NE=8
+.ENDS bjt_cont

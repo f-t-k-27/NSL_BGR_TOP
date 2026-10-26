@@ -1,0 +1,13 @@
+** sch_path: /foss/designs/BGR_NSL/test/VrefBias.sch
+.subckt VrefBias Y3 Y2 Y1 Y0 out vdd vss Bjt
+*.PININFO Y3:I Y2:I Y1:I Y0:I out:O vdd:B vss:B Bjt:B
+M11 net2 Y3 out vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1 m=4
+M12 net2 Y2 net4 vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1 m=4
+M13 net2 Y1 net3 vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1 m=4
+M14 net2 Y0 net1 vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1 m=9
+R3 net4 out vss sky130_fd_pr__res_high_po_1p41 L=2.12 mult=1
+R4 net3 net4 vss sky130_fd_pr__res_high_po_1p41 L=1.12 mult=2 m=2
+R5 net1 net3 vss sky130_fd_pr__res_high_po_1p41 L=0.82 mult=1
+R6 Bjt net2 vss sky130_fd_pr__res_high_po_1p41 L=43.12 mult=1
+M7 net2 vdd vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=5 nf=1
+.ends

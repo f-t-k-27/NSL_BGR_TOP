@@ -1,0 +1,405 @@
+* Extracted by KLayout with SKY130 LVS runset on : 22/10/2026 06:12
+
+* cell BGR_coreAndVrefBranch
+.SUBCKT BGR_coreAndVrefBranch
+* cell instance $1 r0 *1 2.935,26.99
+X$1 \$1 vias_gen$6
+* cell instance $2 r0 *1 2.935,12.79
+X$2 \$1 vias_gen$6
+* cell instance $3 r0 *1 2.935,19.89
+X$3 \$1 vias_gen$6
+* cell instance $4 r0 *1 12.985,26.99
+X$4 \$1 vias_gen$8
+* cell instance $5 r0 *1 20.085,26.99
+X$5 \$1 vias_gen$8
+* cell instance $6 r0 *1 27.185,19.89
+X$6 \$1 vias_gen$8
+* cell instance $7 r0 *1 27.175,26.99
+X$7 \$1 vias_gen$8
+* cell instance $8 r0 *1 12.985,19.89
+X$8 \$1 vias_gen$8
+* cell instance $9 r0 *1 12.985,12.85
+X$9 \$1 vias_gen$8
+* cell instance $10 r0 *1 27.185,12.79
+X$10 \$1 vias_gen$8
+* cell instance $11 r0 *1 20.085,12.79
+X$11 \$1 vias_gen$8
+* cell instance $12 r0 *1 18.26,22.675
+X$12 sky130_gnd sky130_gnd \$1 sky130_gnd pnp_bjt
+* cell instance $13 r0 *1 18.26,8.475
+X$13 sky130_gnd sky130_gnd \$1 sky130_gnd pnp_bjt
+* cell instance $14 r0 *1 25.36,22.675
+X$14 sky130_gnd sky130_gnd \$1 sky130_gnd pnp_bjt
+* cell instance $15 r0 *1 11.16,22.675
+X$15 sky130_gnd sky130_gnd \$1 sky130_gnd pnp_bjt
+* cell instance $16 r0 *1 11.16,15.575
+X$16 sky130_gnd sky130_gnd \$1 sky130_gnd pnp_bjt
+* cell instance $17 r0 *1 25.36,15.575
+X$17 sky130_gnd sky130_gnd \$1 sky130_gnd pnp_bjt
+* cell instance $18 r0 *1 11.16,8.475
+X$18 sky130_gnd sky130_gnd \$1 sky130_gnd pnp_bjt
+* cell instance $19 r0 *1 25.36,8.475
+X$19 sky130_gnd sky130_gnd \$1 sky130_gnd pnp_bjt
+* cell instance $20 m45 *1 39.785,17.39
+X$20 \$3 vias_gen$6
+* cell instance $21 r0 *1 18.26,15.575
+X$21 sky130_gnd sky130_gnd \$3 sky130_gnd pnp_bjt
+* cell instance $22 r0 *1 22.135,17.39
+X$22 \$3 vias_gen$1
+* cell instance $23 r0 *1 5.87,4.475
+X$23 \$17 vias_gen$9
+* cell instance $24 r0 *1 36.275,32.875
+X$24 \$17 vias_gen$9
+* cell instance $25 r0 *1 36.275,11.575
+X$25 \$17 vias_gen$8
+* cell instance $26 r0 *1 5.875,32.875
+X$26 \$17 vias_gen$8
+* cell instance $27 r0 *1 5.875,25.775
+X$27 \$17 vias_gen$8
+* cell instance $28 r0 *1 5.875,11.575
+X$28 \$17 vias_gen$8
+* cell instance $29 r0 *1 5.87,18.675
+X$29 \$17 vias_gen$8
+* cell instance $30 r0 *1 36.275,18.675
+X$30 \$17 vias_gen$8
+* cell instance $31 r0 *1 36.275,25.775
+X$31 \$17 vias_gen$8
+* cell instance $32 r0 *1 32.46,15.575
+X$32 sky130_gnd sky130_gnd \$17 sky130_gnd pnp_bjt
+* cell instance $33 r0 *1 32.46,8.475
+X$33 sky130_gnd sky130_gnd \$17 sky130_gnd pnp_bjt
+* cell instance $34 r0 *1 4.06,8.475
+X$34 sky130_gnd sky130_gnd \$17 sky130_gnd pnp_bjt
+* cell instance $35 r0 *1 4.06,15.575
+X$35 sky130_gnd sky130_gnd \$17 sky130_gnd pnp_bjt
+* cell instance $36 r0 *1 4.06,29.775
+X$36 sky130_gnd sky130_gnd \$17 sky130_gnd pnp_bjt
+* cell instance $37 r0 *1 4.06,22.675
+X$37 sky130_gnd sky130_gnd \$17 sky130_gnd pnp_bjt
+* cell instance $38 r0 *1 32.46,1.375
+X$38 sky130_gnd sky130_gnd \$17 sky130_gnd pnp_bjt
+* cell instance $39 r0 *1 36.275,4.475
+X$39 \$17 vias_gen$8
+* cell instance $40 r0 *1 32.46,22.675
+X$40 sky130_gnd sky130_gnd \$17 sky130_gnd pnp_bjt
+* cell instance $41 m0 *1 0.12,0.73
+X$41 sky130_gnd vias_gen$6
+* cell instance $42 m45 *1 16.485,34.8
+X$42 sky130_gnd vias_gen$6
+* cell instance $43 m45 *1 11.295,29.9
+X$43 sky130_gnd vias_gen$6
+* cell instance $44 m45 *1 9.385,27.7
+X$44 sky130_gnd vias_gen$6
+* cell instance $45 m45 *1 9.385,34.8
+X$45 sky130_gnd vias_gen$6
+* cell instance $46 m45 *1 4.195,29.9
+X$46 sky130_gnd vias_gen$6
+* cell instance $47 m45 *1 9.385,20.6
+X$47 sky130_gnd vias_gen$6
+* cell instance $48 m45 *1 18.395,1.5
+X$48 sky130_gnd vias_gen$6
+* cell instance $49 m45 *1 18.395,8.6
+X$49 sky130_gnd vias_gen$6
+* cell instance $50 m45 *1 16.485,6.4
+X$50 sky130_gnd vias_gen$6
+* cell instance $51 m45 *1 9.385,6.4
+X$51 sky130_gnd vias_gen$6
+* cell instance $52 m45 *1 4.195,15.7
+X$52 sky130_gnd vias_gen$6
+* cell instance $53 m45 *1 18.395,15.7
+X$53 sky130_gnd vias_gen$6
+* cell instance $54 m45 *1 9.385,13.5
+X$54 sky130_gnd vias_gen$6
+* cell instance $55 m45 *1 4.195,1.5
+X$55 sky130_gnd vias_gen$6
+* cell instance $56 m45 *1 11.295,1.5
+X$56 sky130_gnd vias_gen$6
+* cell instance $57 m45 *1 11.295,8.6
+X$57 sky130_gnd vias_gen$6
+* cell instance $58 m45 *1 11.295,15.7
+X$58 sky130_gnd vias_gen$6
+* cell instance $59 m45 *1 16.485,13.5
+X$59 sky130_gnd vias_gen$6
+* cell instance $60 m45 *1 32.595,22.8
+X$60 sky130_gnd vias_gen$6
+* cell instance $61 m45 *1 30.685,34.8
+X$61 sky130_gnd vias_gen$6
+* cell instance $62 m45 *1 32.595,29.9
+X$62 sky130_gnd vias_gen$6
+* cell instance $63 m45 *1 37.785,27.7
+X$63 sky130_gnd vias_gen$6
+* cell instance $64 m45 *1 37.785,34.8
+X$64 sky130_gnd vias_gen$6
+* cell instance $65 m45 *1 30.685,27.7
+X$65 sky130_gnd vias_gen$6
+* cell instance $66 m45 *1 37.785,20.6
+X$66 sky130_gnd vias_gen$6
+* cell instance $67 m45 *1 30.685,20.6
+X$67 sky130_gnd vias_gen$6
+* cell instance $68 m45 *1 16.485,27.7
+X$68 sky130_gnd vias_gen$6
+* cell instance $69 m45 *1 23.585,34.8
+X$69 sky130_gnd vias_gen$6
+* cell instance $70 m45 *1 25.495,22.8
+X$70 sky130_gnd vias_gen$6
+* cell instance $71 m45 *1 23.585,20.6
+X$71 sky130_gnd vias_gen$6
+* cell instance $72 m45 *1 25.495,29.9
+X$72 sky130_gnd vias_gen$6
+* cell instance $73 m45 *1 18.395,22.8
+X$73 sky130_gnd vias_gen$6
+* cell instance $74 m45 *1 11.295,22.8
+X$74 sky130_gnd vias_gen$6
+* cell instance $75 m45 *1 4.195,22.8
+X$75 sky130_gnd vias_gen$6
+* cell instance $76 m45 *1 18.395,29.9
+X$76 sky130_gnd vias_gen$6
+* cell instance $77 m45 *1 16.485,20.6
+X$77 sky130_gnd vias_gen$6
+* cell instance $78 m45 *1 23.585,27.7
+X$78 sky130_gnd vias_gen$6
+* cell instance $79 m45 *1 23.585,6.4
+X$79 sky130_gnd vias_gen$6
+* cell instance $80 m45 *1 23.585,13.5
+X$80 sky130_gnd vias_gen$6
+* cell instance $81 m45 *1 32.595,1.5
+X$81 sky130_gnd vias_gen$6
+* cell instance $82 m45 *1 25.495,1.5
+X$82 sky130_gnd vias_gen$6
+* cell instance $83 m45 *1 32.595,8.6
+X$83 sky130_gnd vias_gen$6
+* cell instance $84 m45 *1 25.495,8.6
+X$84 sky130_gnd vias_gen$6
+* cell instance $85 m45 *1 25.495,15.7
+X$85 sky130_gnd vias_gen$6
+* cell instance $86 m45 *1 30.685,13.5
+X$86 sky130_gnd vias_gen$6
+* cell instance $87 m45 *1 30.685,6.4
+X$87 sky130_gnd vias_gen$6
+* cell instance $88 m45 *1 32.595,15.7
+X$88 sky130_gnd vias_gen$6
+* cell instance $89 m45 *1 4.195,8.6
+X$89 sky130_gnd vias_gen$6
+* cell instance $90 m45 *1 37.785,6.4
+X$90 sky130_gnd vias_gen$6
+* cell instance $91 m45 *1 37.785,13.5
+X$91 sky130_gnd vias_gen$6
+* cell instance $92 m0 *1 0.12,28.495
+X$92 sky130_gnd vias_gen$6
+* cell instance $93 m0 *1 43.45,2
+X$93 sky130_gnd vias_gen$6
+* cell instance $94 m0 *1 0.12,7.205
+X$94 sky130_gnd vias_gen$6
+* cell instance $95 m0 *1 0.12,21.41
+X$95 sky130_gnd vias_gen$6
+* cell instance $96 m0 *1 43.45,0.73
+X$96 sky130_gnd vias_gen$6
+* cell instance $97 m0 *1 43.45,16.19
+X$97 sky130_gnd vias_gen$6
+* cell instance $98 m0 *1 43.45,9.1
+X$98 sky130_gnd vias_gen$6
+* cell instance $99 m0 *1 43.45,37.6
+X$99 sky130_gnd vias_gen$6
+* cell instance $100 m0 *1 0.12,14.3
+X$100 sky130_gnd vias_gen$6
+* cell instance $101 m0 *1 0.12,16.19
+X$101 sky130_gnd vias_gen$6
+* cell instance $102 m0 *1 0.12,3.7
+X$102 sky130_gnd vias_gen$6
+* cell instance $103 m0 *1 43.45,30.395
+X$103 sky130_gnd vias_gen$6
+* cell instance $104 m0 *1 0.12,30.395
+X$104 sky130_gnd vias_gen$6
+* cell instance $105 m0 *1 43.45,23.3
+X$105 sky130_gnd vias_gen$6
+* cell instance $106 m0 *1 0.12,34.58
+X$106 sky130_gnd vias_gen$6
+* cell instance $107 m0 *1 0.12,37.61
+X$107 sky130_gnd vias_gen$6
+* cell instance $108 m0 *1 0.12,35.595
+X$108 sky130_gnd vias_gen$6
+* cell instance $109 r0 *1 18.26,29.775
+X$109 sky130_gnd sky130_gnd sky130_gnd sky130_gnd pnp_bjt
+* cell instance $110 r0 *1 25.36,1.375
+X$110 sky130_gnd sky130_gnd sky130_gnd sky130_gnd pnp_bjt
+* cell instance $111 r0 *1 18.26,1.375
+X$111 sky130_gnd sky130_gnd sky130_gnd sky130_gnd pnp_bjt
+* cell instance $112 r0 *1 11.16,29.775
+X$112 sky130_gnd sky130_gnd sky130_gnd sky130_gnd pnp_bjt
+* cell instance $113 r0 *1 25.36,29.775
+X$113 sky130_gnd sky130_gnd sky130_gnd sky130_gnd pnp_bjt
+* cell instance $114 r0 *1 11.16,1.375
+X$114 sky130_gnd sky130_gnd sky130_gnd sky130_gnd pnp_bjt
+* cell instance $115 r0 *1 32.46,29.775
+X$115 sky130_gnd sky130_gnd sky130_gnd sky130_gnd pnp_bjt
+* cell instance $116 r0 *1 5.92,1.5
+X$116 sky130_gnd vias_gen$10
+* cell instance $117 r0 *1 4.06,1.375
+X$117 sky130_gnd sky130_gnd sky130_gnd sky130_gnd pnp_bjt
+* cell instance $118 r0 *1 20.165,22.8
+X$118 sky130_gnd vias_gen$10
+* cell instance $119 r0 *1 27.19,35.1
+X$119 sky130_gnd vias_gen$10
+* cell instance $120 r0 *1 27.185,29.9
+X$120 sky130_gnd vias_gen$10
+* cell instance $121 r0 *1 20.165,29.9
+X$121 sky130_gnd vias_gen$10
+* cell instance $122 r0 *1 20.1,28
+X$122 sky130_gnd vias_gen$10
+* cell instance $123 r0 *1 20.1,20.9
+X$123 sky130_gnd vias_gen$10
+* cell instance $124 r0 *1 20.1,35.1
+X$124 sky130_gnd vias_gen$10
+* cell instance $125 r0 *1 20.165,15.7
+X$125 sky130_gnd vias_gen$10
+* cell instance $126 r0 *1 20.1,13.8
+X$126 sky130_gnd vias_gen$10
+* cell instance $127 r0 *1 20.165,8.6
+X$127 sky130_gnd vias_gen$10
+* cell instance $128 r0 *1 27.185,22.8
+X$128 sky130_gnd vias_gen$10
+* cell instance $129 r0 *1 20.1,6.7
+X$129 sky130_gnd vias_gen$10
+* cell instance $130 r0 *1 20.165,1.5
+X$130 sky130_gnd vias_gen$10
+* cell instance $131 r0 *1 34.3,20.9
+X$131 sky130_gnd vias_gen$10
+* cell instance $132 r0 *1 34.525,1.5
+X$132 sky130_gnd vias_gen$10
+* cell instance $133 r0 *1 34.3,35.1
+X$133 sky130_gnd vias_gen$10
+* cell instance $134 r0 *1 34.525,29.9
+X$134 sky130_gnd vias_gen$10
+* cell instance $135 r0 *1 34.3,28
+X$135 sky130_gnd vias_gen$10
+* cell instance $136 r0 *1 34.3,6.7
+X$136 sky130_gnd vias_gen$10
+* cell instance $137 r0 *1 5.92,35.1
+X$137 sky130_gnd vias_gen$10
+* cell instance $138 r0 *1 5.92,28
+X$138 sky130_gnd vias_gen$10
+* cell instance $139 r0 *1 13.095,28
+X$139 sky130_gnd vias_gen$10
+* cell instance $140 r0 *1 27.19,13.8
+X$140 sky130_gnd vias_gen$10
+* cell instance $141 r0 *1 13.095,35.1
+X$141 sky130_gnd vias_gen$10
+* cell instance $142 r0 *1 5.92,20.9
+X$142 sky130_gnd vias_gen$10
+* cell instance $143 r0 *1 13.095,20.9
+X$143 sky130_gnd vias_gen$10
+* cell instance $144 r0 *1 12.955,1.5
+X$144 sky130_gnd vias_gen$10
+* cell instance $145 r0 *1 27.185,1.5
+X$145 sky130_gnd vias_gen$10
+* cell instance $146 r0 *1 27.19,6.7
+X$146 sky130_gnd vias_gen$10
+* cell instance $147 r0 *1 13.095,6.7
+X$147 sky130_gnd vias_gen$10
+* cell instance $148 r0 *1 5.92,8.6
+X$148 sky130_gnd vias_gen$10
+* cell instance $149 r0 *1 12.955,15.7
+X$149 sky130_gnd vias_gen$10
+* cell instance $150 r0 *1 5.92,15.7
+X$150 sky130_gnd vias_gen$10
+* cell instance $151 r0 *1 13.095,13.8
+X$151 sky130_gnd vias_gen$10
+* cell instance $152 r0 *1 5.92,13.8
+X$152 sky130_gnd vias_gen$10
+* cell instance $153 r0 *1 12.955,8.6
+X$153 sky130_gnd vias_gen$10
+* cell instance $154 r0 *1 27.185,15.7
+X$154 sky130_gnd vias_gen$10
+* cell instance $155 r0 *1 34.525,15.7
+X$155 sky130_gnd vias_gen$10
+* cell instance $156 r0 *1 12.955,22.8
+X$156 sky130_gnd vias_gen$10
+* cell instance $157 r0 *1 34.525,22.8
+X$157 sky130_gnd vias_gen$10
+* cell instance $158 r0 *1 5.92,22.8
+X$158 sky130_gnd vias_gen$10
+* cell instance $159 r0 *1 27.19,20.9
+X$159 sky130_gnd vias_gen$10
+* cell instance $160 r0 *1 5.92,6.7
+X$160 sky130_gnd vias_gen$10
+* cell instance $161 r0 *1 5.92,29.9
+X$161 sky130_gnd vias_gen$10
+* cell instance $162 r0 *1 27.185,8.6
+X$162 sky130_gnd vias_gen$10
+* cell instance $163 r0 *1 27.19,28
+X$163 sky130_gnd vias_gen$10
+* cell instance $164 r0 *1 34.525,8.6
+X$164 sky130_gnd vias_gen$10
+* cell instance $165 r0 *1 12.955,29.9
+X$165 sky130_gnd vias_gen$10
+* cell instance $166 r0 *1 34.3,13.8
+X$166 sky130_gnd vias_gen$10
+* cell instance $167 r180 *1 6.89,3.69
+X$167 sky130_gnd vias_gen$1
+* cell instance $168 r180 *1 28.185,3.69
+X$168 sky130_gnd vias_gen$1
+* cell instance $169 r180 *1 13.985,3.69
+X$169 sky130_gnd vias_gen$1
+* cell instance $170 r180 *1 21.085,3.69
+X$170 sky130_gnd vias_gen$1
+* cell instance $171 r0 *1 22.135,34.09
+X$171 sky130_gnd vias_gen$1
+* cell instance $172 r0 *1 29.235,34.09
+X$172 sky130_gnd vias_gen$1
+* cell instance $173 r0 *1 15.035,34.09
+X$173 sky130_gnd vias_gen$1
+* cell instance $174 r0 *1 36.33,34.09
+X$174 sky130_gnd vias_gen$1
+* cell instance $175 r0 *1 6.64,0.25
+X$175 sky130_gnd vias_gen
+* cell instance $176 r0 *1 3.435,0.75
+X$176 sky130_gnd guard_ring_gen
+* cell instance $177 r0 *1 6.64,37.1
+X$177 sky130_gnd vias_gen
+.ENDS BGR_coreAndVrefBranch
+
+* cell vias_gen$9
+* pin 
+.SUBCKT vias_gen$9 \$1
+.ENDS vias_gen$9
+
+* cell vias_gen$6
+* pin 
+.SUBCKT vias_gen$6 \$1
+.ENDS vias_gen$6
+
+* cell vias_gen$8
+* pin 
+.SUBCKT vias_gen$8 \$1
+.ENDS vias_gen$8
+
+* cell vias_gen$1
+* pin 
+.SUBCKT vias_gen$1 \$1
+.ENDS vias_gen$1
+
+* cell vias_gen$10
+* pin 
+.SUBCKT vias_gen$10 \$1
+.ENDS vias_gen$10
+
+* cell guard_ring_gen
+* pin sky130_gnd
+.SUBCKT guard_ring_gen sky130_gnd
+.ENDS guard_ring_gen
+
+* cell pnp_bjt
+* pin Collector
+* pin Base
+* pin Emitter
+* pin sky130_gnd
+.SUBCKT pnp_bjt Collector Base Emitter sky130_gnd
+* device instance $1 r0 *1 3.35,3.35 sky130_fd_pr__pnp_05v5_W3p40L3p40
+XQ$1 Collector Base Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40 AE=1.156e+13
++ PE=13600000 AB=2.31361e+13 PB=19240000 AC=2.31361e+13 PC=19240000 NE=1
+.ENDS pnp_bjt
+
+* cell vias_gen
+* pin 
+.SUBCKT vias_gen \$1
+.ENDS vias_gen

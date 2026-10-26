@@ -1,0 +1,17 @@
+* Extracted by KLayout with SKY130 LVS runset on : 21/10/2026 08:32
+
+* cell loadcurrent_m
+.SUBCKT loadcurrent_m
+* device instance $1 r0 *1 149.02,203.785 sky130_fd_pr__pfet_01v8_lvt
+XM$1 \$2 \$2 \$2 \$2 sky130_fd_pr__pfet_01v8_lvt L=2000000 W=36000000
++ AS=1.782e+13 AD=1.782e+13 PS=59940000 PD=59940000
+* device instance $2 r0 *1 151.68,203.785 sky130_fd_pr__pfet_01v8_lvt
+XM$2 \$2 \$3 \$1 \$2 sky130_fd_pr__pfet_01v8_lvt L=2000000 W=36000000
++ AS=1.188e+13 AD=1.188e+13 PS=39960000 PD=39960000
+* device instance $4 r0 *1 157,203.785 sky130_fd_pr__pfet_01v8_lvt
+XM$4 \$2 \$3 \$3 \$2 sky130_fd_pr__pfet_01v8_lvt L=2000000 W=36000000
++ AS=1.188e+13 AD=1.188e+13 PS=39960000 PD=39960000
+* device instance $6 r0 *1 162.32,203.785 sky130_fd_pr__pfet_01v8_lvt
+XM$6 \$2 \$3 \$9 \$2 sky130_fd_pr__pfet_01v8_lvt L=2000000 W=36000000
++ AS=1.188e+13 AD=1.188e+13 PS=39960000 PD=39960000
+.ENDS loadcurrent_m
